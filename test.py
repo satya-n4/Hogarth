@@ -12,7 +12,7 @@ class TestSortOddNumbers(unittest.TestCase):
         self.assertEqual(sort_odd_numbers([5, 3, 9, 1]), [1, 3, 5, 9])
 
     def test_mixed_numbers(self):
-        self.assertEqual(sort_odd_numbers([10, 7, 2, 9, 4]), [10, 7, 2, 9, 4])
+        self.assertEqual(sort_odd_numbers([10, 7, 2, 9, 4, 0]), [10, 7, 2, 9, 4, 0])
 
     def test_large_numbers(self):
         self.assertEqual(sort_odd_numbers([100, 23, 67, 45, 89]), [100, 23, 45, 67, 89])
